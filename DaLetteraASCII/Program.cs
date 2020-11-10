@@ -10,7 +10,9 @@ namespace DaLetteraASCII
             char carattere = Convert.ToChar(Console.ReadLine());
             ushort carattereInAscii = 0;
             carattereInAscii = carattere;
-            Console.WriteLine($"Carattere {carattere} - Carattere in ASCII {carattereInAscii}" );
+            string numero = Convert.ToString(carattereInAscii, 2).PadLeft(16, '0');
+            Console.WriteLine($"Carattere {carattere} - Carattere in ASCII {carattereInAscii}- NumeroBinario {numero}");
+
         }
     }
 }
