@@ -10,7 +10,7 @@ namespace DaLetteraASCII
             char carattere = Convert.ToChar(Console.ReadLine());
             ushort carattereInAscii = 0;
             carattereInAscii = carattere;
-            Console.WriteLine($"Carattere {carattere} - Carattere in ASCII {carattereInAscii}");
+            Console.WriteLine($"Carattere {carattere} - Carattere in ASCII {carattereInAscii}" );
         }
     }
 }
